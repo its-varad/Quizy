@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuizApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+           <!-- White text -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/black</item> <!-- Text color ON TOP of your primary color -->
+
+        <!-- 2. Set the default background and surface colors -->
+        <item name="android:colorBackground">@color/dark</item> <!-- e.g., #121212 -->
+        <item name="colorSurface">@color/dark</item> <!-- e.g., #1F1F1F, for cards, etc. -->
+
+        <!-- 3. THIS IS THE FIX: Set the default text color for the theme -->
+        <!-- This color will appear on top of your background/surface colors. -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>
