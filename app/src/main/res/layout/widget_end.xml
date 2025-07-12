@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="0dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/rounded_widget_background"
+    android:layout_margin="8dp">
+
+    <!-- Top bar with logo -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/rounded_top_bar_background"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/widget_logo"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@mipmap/quizy_icon"
+            android:background="@drawable/rounded_logo_bg"
+            android:scaleType="centerCrop"
+            android:contentDescription="App Logo"
+            android:layout_marginEnd="6dp" />
+
+        <TextView
+            android:id="@+id/widget_results"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Restart button -->
+    <Button
+        android:id="@+id/widget_restart_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Restart"
+        android:textSize="17sp"
+        android:textColor="#262626"
+        android:textStyle="bold"
+        android:background="@drawable/filled_button_bg"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="7.5dp"
+        android:gravity="center"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp" />
+
+</LinearLayout>

@@ -79,8 +79,9 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\varun\Downloads\checkmark.png" />
-                                                <entry key="scalingPercent" value="51" />
+                                                <entry key="imagePath" value="C:\Users\varun\Downloads\quiz_icon.png" />
+                                                <entry key="scalingPercent" value="70" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -112,8 +113,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="ffffff" />
-                                      <entry key="outputName" value="check_icon" />
+                                      <entry key="outputName" value="quizy_icon" />
                                     </map>
                                   </option>
                                 </PersistentState>
